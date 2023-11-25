@@ -1,0 +1,15 @@
+:host {
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    input {
+        border: none;
+        border-bottom: 1px solid #000;
+    }
+
+    span {
+        color: red;
+    }
+}

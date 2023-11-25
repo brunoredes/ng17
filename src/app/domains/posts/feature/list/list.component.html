@@ -1,0 +1,9 @@
+@for (post of posts(); track $index) {
+    @defer (when post) {
+        <app-card [post]="post" />
+    }
+} @empty {
+    @defer {
+        <app-empty-list />
+    }
+}
